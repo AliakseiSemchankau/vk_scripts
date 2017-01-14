@@ -1,0 +1,4 @@
+abcd # Token
+2000000065 # peer_id
+chat_photos.txt # file to store photo information
+chat_likes_stat.txt # file to store photo information + likes information
