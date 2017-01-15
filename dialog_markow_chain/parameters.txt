@@ -1,0 +1,6 @@
+abcd # Token
+0 # chat_id
+0_msg_store.txt # file to store downloaded messages from user
+2000 # length of chain
+? ? ? # 3 words, start position of chain
+0# id for people to build markow chain on
