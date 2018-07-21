@@ -1,3 +1,5 @@
-access_token = 'd0333efbdd1b14682b87b69530397ba41af5f1ec3cec2bc69137d7f0dcad7aecbbc1cfc690aa04020044c'
-version = '5.80'
-database_address = 'community_database.txt'
+access_token = 'abcd' # access token for vk. 
+version = '5.80' # version of vk api to use.
+database_address = 'community_database.txt' # filename to dump/load a database.
+community_id = 88104982 # id of community to explore.
+members_to_proceed = 300

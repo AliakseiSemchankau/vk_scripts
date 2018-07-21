@@ -100,9 +100,9 @@ class DataBaseOperator():
         if community_id not in self.db.cache_community_size:
             self.db.cache_community_size[community_id] = \
                 get_community_size(community_id,
-                                    self.api,
-                                    self.access_token,
-                                    self.version)
+                                   self.api,
+                                   self.access_token,
+                                   self.version)
         return self.db.cache_community_size[community_id]
 
     def get_ids(self, community_id):
