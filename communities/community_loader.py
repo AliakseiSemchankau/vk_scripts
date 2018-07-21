@@ -68,7 +68,7 @@ def get_communities(user_id, threshold, api, access_token, version):
 
             return subscrs
         except Exception as e:
-            print(e)
+            print('le exception: {}'.format(e))
             return []
 
 class DataBase():
